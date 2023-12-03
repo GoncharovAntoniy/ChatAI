@@ -1,5 +1,8 @@
-import React from 'react';
-import ChatList from './components/ChatList';
+import React from "react";
+import ChatList from "./components/ChatList";
+import { Routes, Route } from "react-router-dom";
+import Login from './pages/Auth/Login';
+import Register from './pages/Auth/Register';
 
 function App() {
   return (
@@ -10,6 +13,10 @@ function App() {
       <main>
         <ChatList />
       </main>
+      {/* <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes> */}
     </div>
   );
 }
