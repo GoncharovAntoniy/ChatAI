@@ -134,5 +134,5 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Замените на адрес вашего фронтенда
+    "http://localhost:3000", # Замените на адрес вашего фронтенда
 ]
